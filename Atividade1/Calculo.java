@@ -1,7 +1,7 @@
-package exercicio_um;
+package Atividade1;
 import java.util.Scanner;
 
-public class calculo {
+public class Calculo {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		double xa, xb, yb, ya;

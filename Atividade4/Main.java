@@ -1,4 +1,4 @@
-package exercicio_3;
+package Atividade4;
 import java.util.Scanner;
 
 public class Main {
@@ -27,6 +27,13 @@ public class Main {
 			System.out.println("Aluno nao encontrado na lista.");
 		}
 		
+		System.out.println("Que aluno deseja remover da lista: (digite seu nome)");
+		nome = input.nextLine();
+		
+		vetAlunos.remove(nome);
+		
+		System.out.println("A quantidade de alunos e: " + vetAlunos.tamanho());
+			
 	}
 
 }

@@ -1,4 +1,4 @@
-package exercicio_3;
+package Atividade3;
 
 public class Vetor {
 	private Aluno[] alunos = new Aluno[5];

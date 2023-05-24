@@ -1,4 +1,4 @@
-package exercicio_4;
+package Atividade4;
 
 public class Vetor implements IVetorAluno{
 	private Aluno[] alunos = new Aluno[2];

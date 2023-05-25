@@ -1,5 +1,4 @@
 package Questao1;
-import java.lang.management.ThreadMXBean;
 import java.util.Scanner;
 
 public class Main {
@@ -30,6 +29,7 @@ public class Main {
             add = input.nextInt();
             num2.adciona(add);
         }
+        input.close();
 
         System.out.println("");
         System.out.println("Vetor 1.");

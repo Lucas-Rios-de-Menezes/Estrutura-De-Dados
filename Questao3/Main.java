@@ -10,5 +10,6 @@ public class Main {
         System.out.println("Qual algarismo da sequência Fibonnaci deseja ver: ");
         i = input.nextInt();
         System.out.println(fibonacci.calculo(i));
+        input.close();
     }
 }

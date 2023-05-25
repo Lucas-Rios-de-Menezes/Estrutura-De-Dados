@@ -20,6 +20,7 @@ public class Main {
 		
 		System.out.println("Que aluno deseja pesquisar se faz parte da lista: (digite seu nome)");
 		nome = input.nextLine();
+		input.close();
 		
 		if(vetAlunos.contem(nome)) {
 			System.out.println("Aluno encontrado na lista.");

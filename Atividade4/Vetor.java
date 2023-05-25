@@ -50,7 +50,7 @@ public class Vetor implements IVetorAluno{
 			}
 		}
 			if (indice != -1) {
-				for(i = indice; i<(totalAlunos-1); i++) {
+				for(i = indice; i<(totalAlunos-1);) {
 					alunos[i] = alunos[i+1];
 					totalAlunos--;
 					return true;

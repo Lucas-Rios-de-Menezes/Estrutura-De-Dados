@@ -32,6 +32,8 @@ public class Main {
 		
 		vetAlunos.remove(nome);
 		
+		input.close();
+
 		System.out.println("A quantidade de alunos e: " + vetAlunos.tamanho());
 			
 	}

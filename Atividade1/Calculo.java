@@ -15,6 +15,7 @@ public class Calculo {
 		yb = input.nextDouble();
 		System.out.println("////");
 		ya = input.nextDouble();
+		input.close();
 		
 		PontoCartesiano pontocar = new PontoCartesiano(xb, xa, yb, ya);
 		

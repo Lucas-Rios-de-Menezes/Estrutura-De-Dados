@@ -2,7 +2,7 @@ package Atividade7;
 import java.util.Random;
 
 public class Vetor {
-	private int[] num = new int[999];
+	private int[] num = new int[1000];
     private Random random = new Random();
 	
 	public void random() {

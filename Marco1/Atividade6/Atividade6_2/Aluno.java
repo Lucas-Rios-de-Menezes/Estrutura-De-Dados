@@ -1,4 +1,4 @@
-package Atividade6.Atividade6_2;
+package Marco1.Atividade6.Atividade6_2;
 
 public class Aluno {
 	private String nome;
